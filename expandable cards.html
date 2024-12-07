@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        
+ 
+        }
+        .container{
+           align-items: center;
+           width: 70%;
+           height: 50;
+           display: flex;
+           justify-content: center;
+           gap: 15px;
+        }
+        .container img{
+            width: 10%;
+            height: 100%;
+            object-fit: cover;
+            border:    2px solid white;
+            border-radius: 15px;
+            transition: all ease-in-out 0.5s;
+            cursor: pointer;
+
+        }
+        .container img:hover{
+            width: 30%;
+            box-shadow: 5px 10px #272626;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/1.jpeg" alt="">
+        <img src="images/2.jpeg" alt="">
+        <img src="images/3.jpeg" alt="">
+        <img src="images/4.jpeg" alt="">
+        <img src="images/5.jpeg" alt="">
+    </div>
+</body>
+</html>
